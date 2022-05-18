@@ -6,4 +6,4 @@ def add(x, y):
 x = 4;
 y = 6;
 
-print(add(1, 2))
+print(add(x, y))
