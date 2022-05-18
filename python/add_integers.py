@@ -3,4 +3,7 @@
 def add(x, y):
     return x + y
 
-add(1, 2)
+x = 4;
+y = 6;
+
+print(add(1, 2))
