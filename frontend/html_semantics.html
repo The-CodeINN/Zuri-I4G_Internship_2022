@@ -3,33 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML SEMANTICS</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>html_semantics</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+
+      main {
+        height: 100vh;
+        text-align: center;
+        border-bottom: 10px solid #444444;
+      }
+
+      header {
+        background-color: #444444;
+        color: #b6b6b1;
+        padding: 20px;
+        font-size: 32px;
+      }
+
+      h1 {
+        font-size: 32px;
+        color: #7f7f7c;
+        margin: 16px;
+        font-weight: 400;
+      }
+
+      form {
+        text-align: left;
+        color: #7f7f7c;
+        font-size: 24px;
+        width: 20%;
+        margin: 0 auto;
+      }
+
+      .typescript {
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+      .button-container {
+        margin: 16px;
+      }
+
+      button {
+        background-color: #297e96;
+        padding: 16px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        border-radius: 2%;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+      button:hover {
+        background-color: #62abba;
+      }
+    </style>
   </head>
   <body>
-    <section >
-      <nav>
-        <h1>Quiz on Important Facts</h1>
-      </nav>
-    </section>
+    <main>
+      <header>Quiz on Important Facts</header>
 
-    <section >
-      <main>
-        <h1">
-          Which one of these is a Javascript package manager?
-        </h1>
+      <section>
+        <h1>Which one of these is a Javascript package manager?</h1>
 
-        <form action="#">
-          <input type="radio" name="answer" />a: NodeJS
-          <input type="radio" name="answer" />b: TypeScript
-          <input type="radio" name="answer" />c: npm
+        <form>
+          <div>
+            <input type="radio" name="option" />
+            <label>a : Node.js</label>
+          </div>
+
+          <div class="typescript">
+            <input type="radio" name="option" />
+            <label>b : TypeScript</label>
+          </div>
+
+          <div>
+            <input type="radio" name="option" checked />
+            <label>c : npm</label>
+          </div>
         </form>
-        <div class="button">
+
+        <div class="button-container">
           <button>Previous Question</button>
           <button>Next Question</button>
         </div>
-      </main>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
