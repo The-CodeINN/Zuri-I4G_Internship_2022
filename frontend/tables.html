@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables practice</title>
+
+    <style>
+      caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-spacing: 5px;
+        padding: 5px;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Broadsheet of the SS2 students of St. Benedict High School given to Mr. Ade
+      </caption>
+
+      <tr class="column_heading">
+        <th scope="col">S/N</th>
+        <th scope="col">Name</th>
+        <th scope="col">Mathematics</th>
+        <th scope="col">English</th>
+        <th scope="col">Physics</th>
+        <th scope="col">Chemistry</th>
+        <th scope="col">Biology</th>
+        <th scope="col">Total</th>
+      </tr>
+
+      <tr class="adekunle">
+        <th scope="row">1</th>
+        <td class="name">Adekunle</td>
+        <td class="maths">72</td>
+        <td class="english">43</td>
+        <td class="physics">78</td>
+        <td class="chemistry">73</td>
+        <td class="biology">37</td>
+        <td colspan="2"  class="total">
+          <script>
+            document.write(72 + 43 + 78 + 73 + 37);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="john">
+        <th scope="row">2</th>
+        <td class="name">John</td>
+        <td class="maths">42</td>
+        <td class="english">64</td>
+        <td class="physics">70</td>
+        <td class="chemistry">55</td>
+        <td class="biology">58</td>
+        <td class="total">
+          <script>
+            document.write(42 + 64 + 70 + 55 + 58);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="peter">
+        <th scope="row">3</th>
+        <td class="name">Peter</td>
+        <td class="maths">62</td>
+        <td class="english">40</td>
+        <td class="physics">73</td>
+        <td class="chemistry">75</td>
+        <td class="biology">99</td>
+        <td class="total">
+          <script>
+            document.write(62 + 40 + 73 + 75 + 99);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="rukayat">
+        <th scope="row">4</th>
+        <td  class="name">Rukayat</td>
+        <td class="maths">77</td>
+        <td class="english">75</td>
+        <td class="physics">78</td>
+        <td class="chemistry">75</td>
+        <td class="biology">82</td>
+        <td class="total">
+          <script>
+            document.write(77 + 75 + 78 + 75 + 82);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="paul">
+        <th scope="row">5</th>
+        <td class="name">Paul</td>
+        <td class="maths">72</td>
+        <td class="english">40</td>
+        <td class="physics">72</td>
+        <td class="chemistry">70</td>
+        <td class="biology">97</td>
+        <td class="total">
+          <script>
+            document.write(72 + 40 + 72 + 70 + 97);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="victor">
+        <th scope="row">6</th>
+        <td class="name">Victor</td>
+        <td class="maths">76</td>
+        <td class="english">64</td>
+        <td class="physics">48</td>
+        <td class="chemistry">99</td>
+        <td class="biology">37</td>
+        <td class="total">
+          <script>
+            document.write(76 + 64 + 48 + 99 + 37);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="john">
+        <th scope="row">7</th>
+        <td class="name">John</td>
+        <td class="maths">62</td>
+        <td class="english">54</td>
+        <td class="physics">78</td>
+        <td class="chemistry">75</td>
+        <td class="biology">64</td>
+        <td class="total">
+          <script>
+            document.write(62 + 54 + 78 + 75 + 64);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="doe">
+        <th scope="row">8</th>
+        <td class="name">Doe</td>
+        <td class="maths">52</td>
+        <td class="english">84</td>
+        <td class="physics">48</td>
+        <td class="chemistry">85</td>
+        <td class="biology">27</td>
+        <td class="total">
+          <script>
+            document.write(52 + 84 + 48 + 85 + 27);
+          </script>
+        </td>
+      </tr>
+
+      <tr class="stephen">
+        <th scope="row">9</th>
+        <td class="name">Stephen</td>
+        <td class="maths">92</td>
+        <td class="english">44</td>
+        <td class="physics">78</td>
+        <td class="chemistry">65</td>
+        <td class="biology">61</td>
+        <td class="total">
+          <script>
+            document.write(92 + 44 + 78 + 65 + 61);
+          </script>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
