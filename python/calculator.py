@@ -1,9 +1,6 @@
 #Calculator app
 
 #Function to add numbers
-from random import choices
-
-
 def add(x, y):
     return x + y
 
@@ -22,8 +19,6 @@ def divide(x, y):
 #Function for modulus
 def modulus(x, y):
     return x % y
-
-
 
 print("Welcome to calculator.py, \n\nSelect an operation:")
 print("\n1. Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus")
