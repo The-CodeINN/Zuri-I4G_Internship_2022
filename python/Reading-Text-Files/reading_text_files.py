@@ -13,11 +13,11 @@ all_letters = alphabet_string_u + alphabet_string_l
 
 
 def read_file_content(filename):
-    with open(filename) as fhandle:
-        file = fhandle.readlines()
+    with open(filename) as file:
+        file = file.readlines()
         words_only = []
         for sentences in file:
-            sentence = sentences.split()
+            sentence = sentences.lower().split()
             for words in sentence:
                 if words[len(words)-1] in all_letters:
                     words_only.append(words)
@@ -26,17 +26,18 @@ def read_file_content(filename):
                     words_only.append(nice_letters)
     return words_only
 
+
 def count_words():
-    
+
     my_dict = {}
     text = read_file_content("./story.txt")
     for word in text:
         if word in my_dict:
             my_dict[word] += 1
-            
+
         else:
-            my_dict[word] = 0
-            my_dict[word] += 1
+            my_dict[word] = 1
     return my_dict
+
 
 print(count_words())
