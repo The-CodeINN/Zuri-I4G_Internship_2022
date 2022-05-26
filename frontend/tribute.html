@@ -8,6 +8,7 @@
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,500&display=swap');
+      
       * {
         margin: 0;
         padding: 0;
@@ -53,6 +54,25 @@
         list-style: none;
         margin-bottom: 10px;
       }
+
+      .tribute-achievement {
+        font-size: 1.2em;
+        font-weight: 400;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 15px;
+      }
+
+      .bio-link small {
+        font-size: 0.8em;
+        color: #ffffff; 
+        margin-bottom: 25px;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
     </style>
   </head>
   <body>
@@ -61,6 +81,14 @@
         <a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">
           <h1 class="tribute-name">Elon Reeve Musk</h1>
         </a>
+
+         <blockquote>
+          "Popular Quote"
+          <small>
+
+          </small>
+        </blockquote>
+        
         <figure>
           <img
             style="height: 200px; width: 200px"
@@ -77,7 +105,7 @@
         <h1 class="heading">About the Genius</h1>
 
         <p>
-          <ul>
+          <ul class="tribute-achievement">
             <li>
               ☛ Elon Reeve Musk was born in <strong>1971</strong> in Pretoria, South Africa, the
               oldest of three children. His father was a <em>South African</em> engineer, his
