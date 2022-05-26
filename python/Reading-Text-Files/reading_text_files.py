@@ -3,23 +3,7 @@
 # count_words("The cake is done. It is a big cake!")
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
 
-
-from cgitb import text
 import string
-
-
-def read_file_content(filename):
-    with open(filename, "r") as f:
-        return f.read()
-
-# def count_words():
-#     text = read_file_content("./story.txt")
-#     # [assignment] Add your code here
-
-#     return {"as": 10, "would": 20}
-
-# print read_file_content("./story.txt")
-
 
 alphabet_string_u = string.ascii_uppercase
 alphabet_string_u = list(alphabet_string_u)
