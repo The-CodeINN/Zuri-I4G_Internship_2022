@@ -1,0 +1,16 @@
+.app_main_login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_main_login-header{
+    text-align: center;
+}
+.app_main_login_form{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./login.css">
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Richard -- Login</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section class="app__navbar">
+      <nav class="container">
+        <h1 class="app__navbar-head">
+          <a href="./index.html">
+            <span class="text-primary">
+              <i class="fa-solid fa-network-wired"></i>Richard Emijere
+            </span>
+          </a>
+        </h1>
+
+        <div class="app__navbar-links">
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./Login/login.html">Login</a>
+            </li>
+            <li>
+              <a href="./Register/register.html">Register</a>
+            </li>
+            <li>
+              <a href="./Contact/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Login Page -->
+    <section class="app_main_login">
+      <main>
+        <div class="appcontainer">
+          <div class="app_main_login_form">
+            <h1 class="app_main_login-header">Login</h1>
+
+            <div class="app_main_login_welcome">
+              <p>Welcome back! Please enter your details</p>
+
+              <form action="" method="POST">
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="remember"
+                  />
+                  <label class="form-check-label" for="remember"
+                    >Remember me</label
+                  >
+                  <a href="#" class="app_main_login-forgot">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+
+                <div class="app_main_login-social">
+                  <p>Or sign in with</p>
+                  <a href="#" class="app_main_login-social-link">
+                    <i class="fab fa-google"></i>Sign in with Google</a
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="app_main_login-dont-have">
+              <p>
+                Don't have an account?
+                <a href="./Register/register.html">Sign Up</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <!-- Footer -->
+    <section class="app__main-footer">
+      <footer class="footer">
+        <div class="app__main-container-footer">
+          <div class="app__main-footer__links">
+            <ul>
+              <li>
+                <a
+                  href="https://mobile.facebook.com/emijere.richard"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/The_Codeinn" target="_blank">
+                  <i class="fa-brands fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/richard-emijere-84067bb0/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/The-CodeINN" target="_blank">
+                  <i class="fa-brands fa-github-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__copyright">
+            <span>
+              <i class="fa-solid fa-copyright"></i>
+              2022 Richard Emijere
+            </span>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
