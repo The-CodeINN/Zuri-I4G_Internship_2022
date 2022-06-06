@@ -1,0 +1,70 @@
+.app__main_contact{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__main_contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    max-width: 430px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app__main_contact .app__main_contact-container{
+    padding: 20px;
+}
+
+.app__main_contact-container .app__main_contact-form{
+    padding: 20px;
+}
+
+.app__main_contact-form .form-group{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.app__main_contact-form .form-group input{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+}
+
+.app__main_contact-form .form-group textarea{
+    height: 80px;
+    width:400px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+}
+
+.app__main_contact-form .form-group input::placeholder{
+    color: #a0a0a0;
+    padding: 5px;
+}
+
+.app__main_contact-form .form-group textarea::placeholder{
+    color: #a0a0a0;
+    padding: 5px;
+}
+
+
+.app__main_contact-form .btn{
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
