@@ -6,6 +6,5 @@ const info = {
   country: "Nigeria",
 };
 
-document.write(`<h1>Name: ${info.name}</h1>`);
-document.write(`<h2>Height: ${info.height}</h2>`);
-document.write(`<h3>Country: ${info.country}</h3>`);
+
+alert(`Name: ${info.name} \nHeight: ${info.height} \nCountry: ${info.country}`);
