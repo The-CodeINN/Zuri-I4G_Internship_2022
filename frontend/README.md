@@ -1,3 +1,3 @@
-# JavaScript Learnings
+# Frontend Learnings
 
-This folder contains all the challenges solved using JavaScript during the internship
+This folder contains the frontend learnings and challenges during the internship.
